@@ -164,10 +164,10 @@ if __name__ == "__main__":
     except:
         print("Check Your Internet Connection")
 
-    bots.login("_nikhil_varma_7","nikhil@D7127")
+    bots.login("userName","Password")
     print(bots.compare(me=True))
-    bots.message(["vamsi gj"],["RCB"])
-    bots.unfollow(["babunuvubtechah","nikhil 40","manamthopuluehe","vamsi_gj"])
-    bots.follow(["babunuvubtechah","nikhil 40","manamthopuluehe","vamsi_gj"])
+    bots.message(userNameList)
+    bots.unfollow(userNamesList)
+    bots.follow(userNamesList)
 
     t.sleep(10)
